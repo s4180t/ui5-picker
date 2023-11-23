@@ -6,7 +6,8 @@
         xmlns:unified="sap.ui.unified"
         id="Picker:Calendar"
         select="handlePickerSelect"
-        intervalSelection="true">
+        intervalSelection="true"
+        months="2">
         <unified:selectedDates>
             <unified:DateRange
                 id="Picker:DateRange"
