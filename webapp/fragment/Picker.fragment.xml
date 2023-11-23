@@ -1,0 +1,17 @@
+<m:Popover
+    xmlns:m="sap.m"
+    id="Picker"
+    placement="Vertical">
+    <unified:Calendar
+        xmlns:unified="sap.ui.unified"
+        id="Picker:Calendar"
+        select="handlePickerSelect"
+        intervalSelection="true">
+        <unified:selectedDates>
+            <unified:DateRange
+                id="Picker:DateRange"
+                startDate="{json>/Begda}"
+                endDate="{json>/Endda}" />
+        </unified:selectedDates>
+    </unified:Calendar>
+</m:Popover>
