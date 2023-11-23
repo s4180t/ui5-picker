@@ -26,7 +26,3 @@ server:
           configuration:
               component: picker
               ui5Theme: sap_horizon
-builder:
-    customTasks:
-        - name: ui5-task-cachebuster
-          afterTask: generateResourcesJson
