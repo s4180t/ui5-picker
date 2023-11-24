@@ -9,7 +9,8 @@
         title="{i18n>title}">
         <form:SimpleForm
             id="FormEdit"
-            emptySpanL="4"
+            emptySpanL="7"
+            emptySpanM="6"
             editable="true">
             <Label
                 id="FormEdit:Date:Label"
@@ -24,7 +25,8 @@
         </form:SimpleForm>
         <form:SimpleForm
             id="FormReadOnly"
-            emptySpanL="4"
+            emptySpanL="6"
+            emptySpanM="5"
             editable="false">
             <Label
                 id="FormReadOnly:Date:Label"
