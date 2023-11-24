@@ -19,10 +19,7 @@
                 showValueHelp="true"
                 valueHelpIconSrc="sap-icon://calendar"
                 valueHelpRequest="onVHRequest"
-                value="{ parts: [ { path: 'json>/Begda', type: 'sap.ui.model.type.Date' },
-                                  { path: 'json>/Endda', type: 'sap.ui.model.type.Date' } ],
-                         type: 'sap.ui.model.type.DateInterval',
-                         formatOptions: { style: 'short' } }"
+                value="{ parts: [ 'json>/Begda', 'json>/Endda' ], type: 'sap.ui.model.type.DateInterval', formatOptions: { style: 'short' } }"
                 change="onChange" />
         </form:SimpleForm>
         <form:SimpleForm
